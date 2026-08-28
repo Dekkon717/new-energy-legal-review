@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "面向新能源业务的本地合同审查辅助工具，支持桌面运行与浏览器端解析。",
+  "author": "Dekkon717",
   "main": "electron/main.mjs",
   "engines": {
     "node": ">=22.13.0"
@@ -13,7 +14,7 @@
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern release",
     "desktop:dev": "npm run build && electron .",
-    "desktop:pack": "npm run build && electron-builder --win nsis portable",
+    "desktop:pack": "npm run build && electron-builder --win nsis portable --publish never",
     "desktop:dir": "npm run build && electron-builder --dir"
   },
   "dependencies": {

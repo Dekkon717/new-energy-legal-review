@@ -2,6 +2,25 @@
 
 一个面向新能源业务的本地合同审查工作台。它不试图替代律师，也不把一份合同压缩成一个看似精确的分数；它更像第一轮筛查时放在手边的清单：哪些条款能定位、哪里可能影响履约、哪些法源需要打开核对、下一步该补什么。
 
+<p align="center">
+  <img src="docs/images/workbench-overview.png" alt="新能源合同审查助手工作台全貌" width="100%">
+</p>
+
+<p align="center"><sub>从本地文件读取、规则路由到风险清单，都放在同一张工作台里。</sub></p>
+
+## 界面预览
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/review-results.png" alt="审查结果与相似案例"></td>
+    <td width="50%"><img src="docs/images/risk-detail.png" alt="风险条款与证据状态"></td>
+  </tr>
+  <tr>
+    <td><strong>审查结果总览</strong><br><sub>风险完整度、分级统计、场景路由和公开案例聚合在同一视图。</sub></td>
+    <td><strong>逐条风险卡片</strong><br><sub>命中条款、缺失要素、修改建议和法源核验路径可以逐项复核。</sub></td>
+  </tr>
+</table>
+
 ## 我为什么做它
 
 新能源合同的麻烦，往往不在于完全没有条款，而在于条款散在采购、技术附件、验收、质保、付款和项目合规之间。第一轮看合同的人，需要反复切换文档、规则和公开资料，容易漏掉“写了但不可执行”的细节。
