@@ -3,9 +3,9 @@
 一个面向新能源业务的本地合同审查工作台。它不试图替代律师，也不把一份合同压缩成一个看似精确的分数；它更像第一轮筛查时放在手边的清单：哪些条款能定位、哪里可能影响履约、哪些法源需要打开核对、下一步该补什么。
 
 <p align="center">
-  <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/新能源合同审查助手-0.1.0-x64.exe"><strong>下载 Windows 安装版</strong></a>
+  <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-setup.exe"><strong>下载 Windows 安装版</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/新能源合同审查助手-0.1.0-便携版.exe"><strong>下载便携版</strong></a>
+  <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-portable.exe"><strong>下载便携版</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest">版本说明</a>
 </p>
@@ -33,8 +33,8 @@
 
 当前公开版本为 `v0.1.0`，仅提供 Windows x64 版本。
 
-- [安装版：新能源合同审查助手-0.1.0-x64.exe](https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/新能源合同审查助手-0.1.0-x64.exe) — 可选择安装目录，并创建桌面和开始菜单快捷方式。
-- [便携版：新能源合同审查助手-0.1.0-便携版.exe](https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/新能源合同审查助手-0.1.0-便携版.exe) — 无需安装，下载后直接运行。
+- [Windows 安装版](https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-setup.exe) — 可选择安装目录，并创建桌面和开始菜单快捷方式。
+- [Windows 便携版](https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-portable.exe) — 无需安装，下载后直接运行。
 
 目前安装包尚未购买 Windows 代码签名证书，首次运行时可能出现 SmartScreen 提示。请先核对文件来源及下方 SHA-256，再决定是否运行。
 
