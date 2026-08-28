@@ -1,0 +1,109 @@
+{
+  "version": "2026-08-26",
+  "checked_at": "2026-08-26",
+  "policy": "法源元数据只用于控制自动分级门槛；正式审查仍须打开官方页面核验现行效力、具体条文、事实要件和地域/项目适用条件。",
+  "default_by_source_type": {
+    "law": {
+      "binding_force": "法律",
+      "validity_status": "以审查日官方页面为准",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": true
+    },
+    "administrative_regulation": {
+      "binding_force": "行政法规",
+      "validity_status": "以审查日官方页面为准",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": true
+    },
+    "judicial_interpretation": {
+      "binding_force": "司法解释",
+      "validity_status": "以审查日官方页面为准",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": true
+    },
+    "mandatory_standard": {
+      "binding_force": "强制性国家标准",
+      "validity_status": "以审查日全国标准信息公共服务平台为准",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": true
+    },
+    "technical_standard": {
+      "binding_force": "通常为推荐性技术标准",
+      "validity_status": "以审查日标准平台为准",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": false
+    },
+    "technical_standard_notice": {
+      "binding_force": "标准发布/信息公告",
+      "validity_status": "以审查日标准平台和具体标准文本为准",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": false
+    },
+    "policy": {
+      "binding_force": "政策/行业管理文件",
+      "validity_status": "按项目时间、类型、地域和监管口径复核",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": false
+    },
+    "industry_policy": {
+      "binding_force": "行业规范/政策文件",
+      "validity_status": "按项目时间、类型、地域和监管口径复核",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": false
+    },
+    "law_cross_check": {
+      "binding_force": "官方交叉核验页",
+      "validity_status": "不单独作为效力判断依据",
+      "requires_exact_provision": true,
+      "may_support_legal_redline": false
+    },
+    "official_case_material": {
+      "binding_force": "公开案例检索素材",
+      "validity_status": "不等同于法律、司法解释或指导性案例规则",
+      "requires_exact_provision": false,
+      "may_support_legal_redline": false
+    }
+  },
+  "overrides": [
+    {
+      "source_id": "SRC-CIVIL-CODE",
+      "application_scope": "全国合同关系；具体条文、合同类型和事实要件需对应核验",
+      "note": "可作为合同履行、违约责任和买卖合同一般规则的正式法源入口。"
+    },
+    {
+      "source_id": "SRC-PRODUCT-QUALITY",
+      "application_scope": "产品生产、销售、质量责任及缺陷产品责任相关事实",
+      "note": "仅凭技术指标缺失不能直接推出违法；应结合强制性标准、产品缺陷和具体责任条款核验。"
+    },
+    {
+      "source_id": "SRC-SPC-CONTRACT-GENERAL-INTERPRETATION",
+      "application_scope": "民法典合同编通则相关争议；依具体条文和事实要件适用",
+      "note": "可支撑合同履行、抗辩、情势变更等解释，但不替代事实审查。"
+    },
+    {
+      "source_id": "SRC-EPC-CONSTRUCTION-INTERPRETATION",
+      "application_scope": "建设工程施工合同纠纷；需先核验项目是否属于建设工程及合同性质",
+      "note": "工程类型和合同性质不明时不得自动认定无效或违法。"
+    },
+    {
+      "source_id": "SRC-GB-T-36276-2023",
+      "application_scope": "电力储能用锂离子电池；合同纳入、项目类型和标准版本需核验",
+      "note": "推荐性国家标准本身不作为严重级别的唯一依据。"
+    },
+    {
+      "source_id": "SRC-GB-T-42288-2022",
+      "application_scope": "电化学储能电站安全管理；项目类型、标准版本和是否被合同纳入需核验",
+      "note": "推荐性国家标准本身不作为严重级别的唯一依据。"
+    },
+    {
+      "source_id": "SRC-SAMR-LITHIUM-TRANSPORT-2025",
+      "application_scope": "动力锂电池运输或多式联运；仅在合同出现相应运输事实时启用",
+      "note": "标准发布信息不等于具体运输义务或违法结论。"
+    },
+    {
+      "source_id": "SRC-MIIT-LITHIUM-2024",
+      "application_scope": "锂离子电池行业企业和项目的行业规范条件；需核验具体监管后果",
+      "note": "行业规范文件不当然构成行政审批前置或合同无效依据。"
+    }
+  ]
+}
