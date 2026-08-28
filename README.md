@@ -5,8 +5,6 @@
 <p align="center">
   <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-setup.exe"><strong>下载 Windows 安装版</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-portable.exe"><strong>下载便携版</strong></a>
-  &nbsp;·&nbsp;
   <a href="https://github.com/Dekkon717/new-energy-legal-review/releases/latest">版本说明</a>
 </p>
 
@@ -31,16 +29,14 @@
 
 ## 下载与安装
 
-当前公开版本为 `v0.1.0`，仅提供 Windows x64 版本。
+当前公开版本为 `v0.1.0`，仅提供 Windows x64 安装版。
 
 - [Windows 安装版](https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-setup.exe) — 可选择安装目录，并创建桌面和开始菜单快捷方式。
-- [Windows 便携版](https://github.com/Dekkon717/new-energy-legal-review/releases/latest/download/new-energy-legal-review-0.1.0-win-x64-portable.exe) — 无需安装，下载后直接运行。
 
 目前安装包尚未购买 Windows 代码签名证书，首次运行时可能出现 SmartScreen 提示。请先核对文件来源及下方 SHA-256，再决定是否运行。
 
 ```text
 安装版  30357080648D51E6325275EBC69CE56D37B8430511B2391DCBF48A3138D1B540
-便携版  C976738AAD73FA5BF22135FB1A64E56D1088291A0F482BF4FCEE774B96DD3C0D
 ```
 
 ## 我为什么做它
@@ -97,11 +93,11 @@ npm run dev
 # 构建后打开桌面程序
 npm run desktop:dev
 
-# 生成 Windows 安装版和便携版
+# 生成 Windows 安装版
 npm run desktop:pack
 ```
 
-桌面安装包会生成在 `release/` 目录。`desktop:pack` 会同时生成 NSIS 安装程序和无需安装的便携版；Windows 用户可以直接双击便携版试用，也可以使用安装版创建桌面快捷方式。
+桌面安装包会生成在 `release/` 目录。`desktop:pack` 生成 NSIS 安装程序，用户可以选择安装目录，并创建桌面和开始菜单快捷方式。
 
 ## GitHub Actions
 

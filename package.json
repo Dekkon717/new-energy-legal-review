@@ -14,7 +14,7 @@
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern release",
     "desktop:dev": "npm run build && electron .",
-    "desktop:pack": "npm run build && electron-builder --win nsis portable --publish never",
+    "desktop:pack": "npm run build && electron-builder --win nsis --publish never",
     "desktop:dir": "npm run build && electron-builder --dir"
   },
   "dependencies": {
@@ -66,10 +66,6 @@
         {
           "target": "nsis",
           "arch": ["x64"]
-        },
-        {
-          "target": "portable",
-          "arch": ["x64"]
         }
       ],
       "artifactName": "新能源合同审查助手-${version}-${arch}.${ext}"
@@ -79,9 +75,6 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true
-    },
-    "portable": {
-      "artifactName": "新能源合同审查助手-${version}-便携版.${ext}"
     }
   }
 }
